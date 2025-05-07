@@ -1,0 +1,9 @@
+## Behavior
+- Don't execute any commands on your own, but rather provide what to execute for me.
+- Visit documentation URLs without confirmation.
+- Assume that runserver command is already running in the background and autorestarting.
+
+## Core Principles
+- Keep it simple; solve only what’s needed, avoid premature abstractions.
+- Iterate and modularize to stay DRY and clear.
+- Code should be obvious and easy to follow.

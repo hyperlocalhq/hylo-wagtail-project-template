@@ -1,0 +1,14 @@
+{% load wagtailimages_tags %}
+
+<figure>
+    {% if value.image %}
+        {% image_url value.image "width-800" as img_url %}
+        <img src="{{ img_url }}" alt="{{ value.image.title }}" width="800">
+    {% endif %}
+    {% if value.caption %}
+        <figcaption>{{ value.caption }}</figcaption>
+    {% endif %}
+    {% if value.attribution %}
+        <div class="attribution">{{ value.attribution }}</div>
+    {% endif %}
+</figure>

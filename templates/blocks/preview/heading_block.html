@@ -1,0 +1,12 @@
+{% extends "wagtailcore/shared/block_preview.html" %}
+{% load static wagtailcore_tags %}
+
+{% block content %}
+<div class="heading-preview">
+    {% if value.size %}
+    <{{ value.size }}>{{ value.heading_text }}</{{ value.size }}>
+    {% else %}
+    <h2>{{ value.heading_text }}</h2>
+    {% endif %}
+</div>
+{% endblock content %}

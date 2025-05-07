@@ -1,0 +1,8 @@
+{% extends "wagtailcore/shared/block_preview.html" %}
+{% load static wagtailcore_tags %}
+
+{% block content %}
+    <div class="paragraph-preview">
+        {{ value|richtext }}
+    </div>
+{% endblock content %}

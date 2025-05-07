@@ -1,0 +1,19 @@
+{% extends "wagtailcore/shared/block_preview.html" %}
+{% load static wagtailcore_tags %}
+
+{% block content %}
+<div class="image-preview">
+    <figure>
+        <svg viewBox="0 0 400 225" style="width: 100%; height: auto;">
+            <rect width="400" height="225" fill="#eee" />
+            <text x="50%" y="50%" text-anchor="middle" fill="#999">Image Preview</text>
+        </svg>
+        {% if value.caption %}
+            <figcaption>{{ value.caption }}</figcaption>
+        {% endif %}
+        {% if value.attribution %}
+            <div class="attribution">{{ value.attribution }}</div>
+        {% endif %}
+    </figure>
+</div>
+{% endblock content %}

@@ -1,0 +1,13 @@
+{% extends "wagtailcore/shared/block_preview.html" %}
+{% load static wagtailcore_tags %}
+
+{% block content %}
+<div class="blockquote-preview">
+    <blockquote>
+        <p>{{ value.text }}</p>
+        {% if value.attribute_name %}
+            <footer>– {{ value.attribute_name }}</footer>
+        {% endif %}
+    </blockquote>
+</div>
+{% endblock content %}

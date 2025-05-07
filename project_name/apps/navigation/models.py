@@ -6,7 +6,7 @@ from wagtail.contrib.settings.models import BaseSiteSetting, register_setting
 from wagtail.fields import StreamField
 from wagtail.snippets.blocks import SnippetChooserBlock
 
-from {{ project_name }}.utils.blocks import LinkStreamBlock, InternalLinkBlock
+from {{ project_name }}.apps.utils.blocks import LinkStreamBlock, InternalLinkBlock
 
 
 @register_setting(icon="list-ul")

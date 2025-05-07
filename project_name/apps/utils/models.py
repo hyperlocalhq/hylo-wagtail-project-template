@@ -17,9 +17,9 @@ from wagtail.models import Orderable, Page
 from wagtail.rich_text import expand_db_html
 from wagtail.snippets.models import register_snippet
 
-from {{ project_name }}.images.models import CustomImage
-from {{ project_name }}.utils.cache import get_default_cache_control_decorator
-from {{ project_name }}.utils.query import order_by_pk_position
+from {{ project_name }}.apps.images.models import CustomImage
+from {{ project_name }}.apps.utils.cache import get_default_cache_control_decorator
+from {{ project_name }}.apps.utils.query import order_by_pk_position
 
 
 # Related pages

@@ -3,5 +3,5 @@ from django.apps import AppConfig
 
 class UsersConfig(AppConfig):
     default_auto_field: str = "django.db.models.AutoField"
-    name = "{{ project_name }}.users"
+    name = "{{ project_name }}.apps.users"
     label = "users"

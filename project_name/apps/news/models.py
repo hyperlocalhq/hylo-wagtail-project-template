@@ -7,8 +7,8 @@ from wagtail.fields import RichTextField
 from wagtail.search import index
 
 from wagtail.fields import StreamField
-from {{ project_name }}.utils.models import BasePage, ArticleTopic
-from {{ project_name }}.utils.blocks import CaptionedImageBlock, StoryBlock, FeaturedArticleBlock
+from {{ project_name }}.apps.utils.models import BasePage, ArticleTopic
+from {{ project_name }}.apps.utils.blocks import CaptionedImageBlock, StoryBlock, FeaturedArticleBlock
 
 
 class ArticlePage(BasePage):

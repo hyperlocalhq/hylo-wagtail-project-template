@@ -4,8 +4,8 @@ from wagtail.fields import RichTextField
 from wagtail.search import index
 
 from wagtail.fields import StreamField
-from {{ project_name }}.utils.blocks import StoryBlock
-from {{ project_name }}.utils.models import BasePage
+from {{ project_name }}.apps.utils.blocks import StoryBlock
+from {{ project_name }}.apps.utils.models import BasePage
 
 
 class StandardPage(BasePage):

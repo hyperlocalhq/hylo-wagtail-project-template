@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 class NavigationConfig(AppConfig):
     default_auto_field: str = "django.db.models.AutoField"
-    name = "{{ project_name }}.navigation"
+    name = "{{ project_name }}.apps.navigation"

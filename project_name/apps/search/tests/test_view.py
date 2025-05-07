@@ -3,7 +3,7 @@ from django.test import override_settings
 from wagtail.models import Site
 from django.test import TestCase
 
-from {{ project_name }}.home.models import HomePage
+from {{ project_name }}.apps.home.models import HomePage
 
 
 class SearchViewTests(TestCase):

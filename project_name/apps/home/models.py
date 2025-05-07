@@ -4,8 +4,8 @@ from wagtail.admin.panels import FieldPanel, InlinePanel, MultiFieldPanel
 from wagtail.search import index
 
 from wagtail.fields import StreamField
-from {{ project_name }}.utils.blocks import StoryBlock, InternalLinkBlock
-from {{ project_name }}.utils.models import BasePage
+from {{ project_name }}.apps.utils.blocks import StoryBlock, InternalLinkBlock
+from {{ project_name }}.apps.utils.models import BasePage
 
 
 class HomePage(BasePage):

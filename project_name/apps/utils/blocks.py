@@ -8,7 +8,7 @@ from wagtail.documents.blocks import DocumentChooserBlock
 from wagtail.images.blocks import ImageBlock, ImageChooserBlock
 from wagtail.snippets.blocks import SnippetChooserBlock
 
-from {{ project_name }}.utils.struct_values import CardStructValue, LinkStructValue
+from {{ project_name }}.apps.utils.struct_values import CardStructValue, LinkStructValue
 
 
 class AccordionBlock(blocks.StructBlock):

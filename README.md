@@ -2,6 +2,14 @@
 
 This project template is designed for creating [Wagtail](https://wagtail.org) builds quickly, intended for developers to bootstrap their Wagtail site development using `wagtail start --template=`. The template comes with pre-defined pages, blocks, functionalities, and fixtures to streamline the initial setup process.
 
+## Quick Start
+
+Run the following from an empty directory where you want to set up the project or existing directory that you want to reset:
+
+```sh
+curl -s https://raw.githubusercontent.com/hyperlocalhq/hylo-public-gists/refs/heads/main/set_up_wagtail_project.sh | bash
+```
+
 ## Getting Started
 
 1. **Check that you have an appropriate version of Python 3** You want to make sure that you have a [compatible version](https://docs.wagtail.org/en/stable/releases/upgrading.html#compatible-django-python-versions) installed:

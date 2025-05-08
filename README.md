@@ -4,13 +4,20 @@ This project template is designed for creating [Wagtail](https://wagtail.org) bu
 
 ## Quick Start
 
-Run the following from an empty directory where you want to set up the project or existing directory that you want to reset:
+Create a directory for your project and get into it:
 
 ```sh
-curl -s https://raw.githubusercontent.com/hyperlocalhq/hylo-public-gists/refs/heads/main/set_up_wagtail_project.sh | bash
+mkdir hylo-wagtail-project
+cd hylo-wagtail-project
 ```
 
-## Getting Started
+Run the following from that empty directory where you want to set up the project or existing directory that you want to reset:
+
+```sh
+curl -s https://raw.githubusercontent.com/hyperlocalhq/hylo-public-gists/refs/heads/main/set_up_wagtail_project.sh -o set_up_wagtail_project.sh && chmod +x set_up_wagtail_project.sh && ./set_up_wagtail_project.sh
+```
+
+## Getting Started Manually
 
 1. **Check that you have an appropriate version of Python 3** You want to make sure that you have a [compatible version](https://docs.wagtail.org/en/stable/releases/upgrading.html#compatible-django-python-versions) installed:
 
